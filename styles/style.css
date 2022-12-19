@@ -1,0 +1,20 @@
+/* General Styles */
+
+body {
+    background-color: darksalmon;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+/* Content Styles */
+
+.card {
+    width: 200px;
+    background-color: aliceblue;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
