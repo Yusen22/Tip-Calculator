@@ -8,13 +8,53 @@ body {
 
 /* Content Styles */
 
-.card {
-    width: 200px;
-    background-color: aliceblue;
-    margin: auto auto;
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.card {
+    width: 400px;
+    background-color: aliceblue;
+    border-radius: 40px;
+    margin: auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     text-align: center;
+    height: 50%;
+}
+
+
+
+/* Results Styles */
+
+.resultsDisplay {
+    width: 300px;
+    margin: 30px 10px;
+}
+
+.resultsDisplay div {
+    border: 2px solid black;
+    border-radius: 8px;
+    height: 30px;
+    margin: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.resultsTitle {
+    font-size: 70%;
+    width: 20%;
+    background-color: aliceblue;
+    height: 100%;
+    margin: 0;
+    border-radius: 8px 0 0 8px;
 }
